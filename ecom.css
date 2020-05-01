@@ -1,0 +1,174 @@
+body{
+    background: #d9a7c7;  
+background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  
+background: linear-gradient(to right, #fffcdc, #d9a7c7); 
+
+}
+
+
+/* Masonary */
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+/* ---- grid ---- */
+
+.grid {
+  
+  max-width: 1200px;
+  box-shadow: 20px 20px 50px 30px rgba(0,0,0,0.1), 
+            -30px -30px 60px 30px rgba(0,0,0,0.2);
+    border-radius: 45px;
+    border:1px solid #d9a7c7;
+           
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  width: 160px;
+  height: 120px;
+  float: left;
+}
+
+
+.grid-item--width2 { width: 320px; }
+.grid-item--width3 { width: 480px; }
+.grid-item--width4 { width: 640px; }
+
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }
+
+
+.navbar.scrolled {
+    
+    background: rgb(62, 65, 65);
+    transition: background 500ms;}
+
+ .carousel-control-next-icon{
+    background-color: darkcyan !important;box-shadow: 2px 3px 0.5px 3px rgba(0,0,0,0.1);
+} 
+
+.navbar-toggler:active{ outline: none;}
+
+.card-img-top{
+    max-width: 14rem;
+    max-height: 236px;
+    min-height: 236px;}
+
+.jumbotron{
+    position: relative;
+    overflow: hidden;
+    height: 450px;}
+
+ 
+ .con {
+   position: relative;
+   margin-top: 1rem;
+   color: #ffffff;
+   z-index: 2; /* Show content above video */}
+ 
+ #video-background{ 
+   position: absolute;
+   height: auto;
+   width: auto;
+   min-height: 100%;
+   min-width: 100%;
+   left: 50%;
+   top: 50%;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+   z-index: 1;}
+
+ .card{
+     float: left;margin-right: 2.5rem;margin-left: 1.5rem;}
+
+ ul{
+     list-style: none;padding: 0;
+ }
+
+ li{
+     display: inline;margin-right: 4px;}
+
+ .color button{
+     border-radius: 10px;}
+
+ .btn-warning{
+     margin-right: 1rem;}
+
+.cat{
+    width: 150px;height: 40px;margin-bottom: 4rem;border-radius: 25px 25px;
+    border: 1px solid darkgray;padding-left: 0.5rem;background-color: darkgray;color: white}
+
+.cat1{
+    width: 300px;height: 40px;margin-bottom: 4rem;border-radius: 25px 25px;
+    border: 1px solid darkgray;padding-left: 0.5rem;background-color: darkgray;color: white
+}
+
+.card-title{
+    color: #34e89e; 
+    color: -webkit-linear-gradient(to right, #0f3443, #34e89e);  
+    color: linear-gradient(to right, #0f3443, #34e89e); }
+
+.carousel-control{
+    background-color: black;  }
+
+  .carousel-indicators{
+    position: absolute;}
+
+ #jumbo1{
+        background: url("https://raw.githubusercontent.com/akashyap2013/PortFolio_Website/master/img/subscribe-bg.png")
+        center top/cover no-repeat;
+        margin-bottom: 0rem;margin-top: 2rem;
+        padding-top: 30px;padding-bottom: 3opx;
+    }
+
+ #testimonials{background: url("https://previews.123rf.com/images/halfpoint/halfpoint1505/halfpoint150500116/39484653-various-running-shoes-laid-on-a-wooden-floor-background.jpg") 
+      center center/cover no-repeat}
+
+.trans{
+    background-color: rgb(190, 190, 190,0.6);margin-top: 35px;
+}    
+
+.panda{
+    width:400px;margin-right: auto;margin-left: auto;
+    box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.2),-5px -5px 10px 5px rgba(0,0,0,0.1);
+}
+
+.panda p{
+    background-color:#fff;height: 4rem;line-height: 4rem;margin-bottom: 0px;padding-left: 1rem;
+    
+}
+.panda p:nth-of-type(2n){
+    background-color: #f3f2f2;
+}
+
+.far{
+    margin-right: 1rem;
+}
+
+#incart{float: right;}
+
+.payment{background-color: whitesmoke;border: 1px solid whitesmoke;border-radius: 5px;padding: 10px 10px;
+    box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.2),-5px -5px 10px 5px rgba(0,0,0,0.1);
+width: 500px;margin-left: auto;margin-right: auto;}
+
+.serve{
+    background-color: whitesmoke;border: 1px solid whitesmoke;border-radius: 5px;padding: 10px 10px;
+    box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.2),-5px -5px 10px 5px rgba(0,0,0,0.1);
+
+}
+
+.ones{
+    color: teal;border-right: 1px solid teal;font-size: 1.5rem;}
+.twos{
+    color: teal;font-size: 1.5rem;
+}

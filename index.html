@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Shoe Rack </title>
+
+    <link rel="stylesheet" href="assets/CSS/ecom.css">
+    <script src="https://kit.fontawesome.com/2c0f9a96a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <!-- navbar -->
+    <nav id="header" class="navbar navbar-expand-sm navbar-dark fixed-top ">
+        <a class="navbar-brand" href="#"><i class="fas fa-shoe-prints"></i>  The Shoe Rack</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Categories:</a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  MEN</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#men">Loafers</a>
+                <a class="dropdown-item" href="#men">Boots</a>
+                <a class="dropdown-item" href="#men">Sneakers</a>
+                <a class="dropdown-item" href="#men">Sandals</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   WOMEN</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#women">Flip-Flops</a>
+                  <a class="dropdown-item" href="#women">Heals</a>
+                  <a class="dropdown-item" href="#women">Sneakers</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   KIDS</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">6-12</a>
+                  <a class="dropdown-item" href="#">3-6</a>
+                  <a class="dropdown-item" href="#">0-3</a>
+                </div>
+              </li>  
+          </ul>
+          <ul class="navbar-nav nav-pills ml-auto">
+            <li class="nav-item active"><button btn ><a href="#cart"><i class="fas fa-cart-arrow-down"></i><span class="count"></span></a> </button></li>
+          </ul>
+        
+        </div>
+      </nav>
+
+      <!-- jumbotron -->
+      <div class="jumbotron jumbotron-fluid">
+        <video id="video-background" preload  muted autoplay  loop>
+            <source src="C:\Users\admin\Videos\Free YouTube Downloader\sparx.mp4" type="video/mp4">
+            <source src="C:\Users\admin\Videos\Free YouTube Downloader\sparx.ogg" type="video/ogg">
+          </video>
+        <div class="container con">
+          <h3 class="display-4">70% off on casuals!!</h3>
+          <p class="lead"><form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" id="search" type="search" placeholder="Enter..." aria-label="Search">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+          </form></p>
+        </div>
+      </div>
+
+      <div class="container">
+      <br>
+      <br>
+
+          <h3 id="men" class="cat">MEN</h3>
+        <br>
+
+                  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="card" style="width: 14rem;">
+                            <img src="https://5.imimg.com/data5/KV/UL/MY-46762858/mens-loafer-shoes-500x500.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">WOODLANDS</h5>
+                              <p class="card-text">Size
+                              <ul class="size">
+                                  <li><button class="btn btn-info">7</button> </li>
+                                   <li><button class="btn btn-info">8</button></li> 
+                                   <li><button class="btn btn-info">9</button></li> 
+                                   <li><button class="btn btn-info">10</button></li>
+                              </ul> Color
+                              <ul class="color">
+                              <li><button class="btn btn-dark"></button> </li>
+                              <li><button class="btn btn-success"></button></li> 
+                              <li><button class="btn btn-secondary"></button></li> 
+                              <li><button class="btn" style="background-color:brown"></button></li>
+                          </ul></p>
+                             <span><button class="btn btn-warning cost">Cost: Rs.800</button> <button href="#" class="btn btn-outline-danger"><i class="fas s1 fa-shopping-cart"></i></button></span> 
+                            </div>
+                          </div>
+        
+                          <div class="card" style="width: 14rem;">
+                            <img src="https://d3u67r7pp2lrq5.cloudfront.net/product_photos/61790910/file_10d517787c_original.jpg" class="card-img-top" alt="...">
+                            <div class="card-body"><h5 class="card-title">MILITARY BOOTS</h5>
+                              <p class="card-text">Size <ul class="size">
+                                  <li><button class="btn btn-info">7</button> </li> <li><button class="btn btn-info">8</button></li> 
+                                   <li><button class="btn btn-info">9</button></li>  <li><button class="btn btn-info">10</button></li>
+                              </ul> Color <ul class="color">
+                              <li><button class="btn btn-dark"></button> </li> <li><button class="btn btn-success"></button></li> 
+                              <li><button class="btn btn-secondary"></button></li>  <li><button class="btn" style="background-color:brown"></button></li> </ul></p>
+                             <span><button class="btn btn-warning cost">Cost: Rs.800</button> <button href="#" class="btn btn-outline-danger"><i class="fas s2 fa-shopping-cart"></i></button></span> 
+                            </div> </div>
+                        
+        
+                          <div class="card" style="width: 14rem;">
+                            <img src="https://s3.amazonaws.com/nikeinc/assets/84925/Sp19_BB_Nike_Adapt_20181218_NIKE0538_Detail5_rectangle_1600.jpg?1547068102" class="card-img-top" alt="...">
+                            <div class="card-body"> <h5 class="card-title">NIKE SNEAKERS</h5>
+                              <p class="card-text">Size<ul class="size">
+                                  <li><button class="btn btn-info">7</button> </li> <li><button class="btn btn-info">8</button></li> 
+                                   <li><button class="btn btn-info">9</button></li> <li><button class="btn btn-info">10</button></li>
+                              </ul> Color<ul class="color">
+                              <li><button class="btn btn-dark"></button> </li> <li><button class="btn btn-success"></button></li> 
+                              <li><button class="btn btn-secondary"></button></li> <li><button class="btn" style="background-color:red"></button></li>
+                          </ul></p><span><button href="#" class="btn btn-outline-danger mr-2"><i class="fas s3 fa-shopping-cart"></i></button><button class="btn btn-warning cost">Cost: Rs.800</button> </span> 
+                            </div> </div></div>
+
+
+                      <div class="carousel-item"> <div class="card" style="width: 14rem;">
+                            <img src="https://www.dhresource.com/0x0/f2/albu/g5/M01/4C/B1/rBVaI1hk0BaAAR9jAAClT5oIBr4821.jpg" class="card-img-top" alt="...">
+                            <div class="card-body"> <h5 class="card-title">SANDAL</h5> <p class="card-text">Size <ul class="size">
+                                  <li><button class="btn btn-info">7</button> </li> <li><button class="btn btn-info">8</button></li> 
+                                   <li><button class="btn btn-info">9</button></li> <li><button class="btn btn-info">10</button></li>
+                              </ul> Color <ul class="color">
+                              <li><button class="btn btn-dark"></button> </li> <li><button class="btn btn-success"></button></li> 
+                              <li><button class="btn btn-secondary"></button></li>  <li><button class="btn" style="background-color:peru"></button></li>
+                          </ul></p> <span><button class="btn btn-warning cost">Cost: Rs.800</button> <button href="#" class="btn btn-outline-danger"><i class="fas s4 fa-shopping-cart"></i></button></span> </div> </div>
+        
+                          <div class="card" style="width: 14rem;">
+                            <img src="https://static.dezeen.com/uploads/2013/03/dezeen_Nike-Vapor-Laser-Talon-3D-printed-football-boots_ss_2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body"><h5 class="card-title">NIKE STUDS</h5> <p class="card-text">Size<ul class="size">
+                                  <li><button class="btn btn-info">7</button> </li><li><button class="btn btn-info">8</button></li> 
+                                   <li><button class="btn btn-info">9</button></li> <li><button class="btn btn-info">10</button></li>
+                              </ul> Color
+                              <ul class="color">
+                              <li><button class="btn btn-dark"></button> </li><li><button class="btn btn-success"></button></li> 
+                              <li><button class="btn btn-secondary"></button></li>  <li><button class="btn" style="background-color:greenyellow"></button></li>
+                          </ul></p><span><button class="btn btn-warning cost">Cost: Rs.800</button> <button href="#" class="btn btn-outline-danger"><i class="fas s5 fa-shopping-cart"></i></button></span>  </div></div>
+
+                      <div class="card" style="width: 14rem;">
+                        <img src="https://5.imimg.com/data5/KV/UL/MY-46762858/mens-loafer-shoes-500x500.jpg" class="card-img-top" alt="...">
+                        <div class="card-body"> <h5 class="card-title"> Casuals</h5> <p class="card-text">Size<ul class="size">
+                              <li><button class="btn btn-info">7</button> </li><li><button class="btn btn-info">8</button></li> 
+                               <li><button class="btn btn-info">9</button></li> <li><button class="btn btn-info">10</button></li>
+                          </ul> Color<ul class="color">
+                          <li><button class="btn btn-dark"></button> </li> <li><button class="btn btn-success"></button></li> 
+                          <li><button class="btn btn-secondary"></button></li> <li><button class="btn" style="background-color:brown"></button></li>
+                      </ul></p> <span><button href="#" class="btn btn-outline-danger mr-2"><i class="fas s6 fa-shopping-cart"></i></button><button class="btn btn-warning cost">Cost: Rs.800</button> </span> </div> </div></div>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+    <br><br><br>
+
+    <!-- Masonary -->
+
+    <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 160 }'>
+      <div ><img class="grid-item "src="https://images-eu.ssl-images-amazon.com/images/G/31/img16/Shoes/SIS/Fila/Amazon-1340x777-a._V297784579_.jpg" alt="one" >
+      </div><div >
+        <img class="grid-item grid-item--width2 grid-item--height2" src="https://fashosonline.files.wordpress.com/2016/06/fb-ads.jpg?w=640" alt="2">
+      </div><div >
+        <img class="grid-item grid-item--height3" src="https://237studio.com/images2/219455.jpg" alt="4" >
+      </div><div >
+        <img class="grid-item grid-item--height2" src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/Shoes/SIS/Skechers/1340x762_mens._CB499028378_.jpg" alt="5" >
+      </div> <div >
+      <img class="grid-item grid-item--width3" src="https://images-eu.ssl-images-amazon.com/images/G/31/img15/Shoes/SIS/ACategoryStores/CSS/2a.jpgim" alt="3" >  
+      </div> <div >
+        <img class="grid-item" src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/shoes/February/Women/L2page/Shoes/1._CB454499950_.jpg" alt="" srcset="">
+      </div><div >
+        <img class="grid-item grid-item--width2" src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/shoes/February/Women/L2page/Shoes/3._CB454499950_.jpg" alt="" srcset="">
+      </div><div >
+        <img class="grid-item grid-item--height2"src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/shoes/February/Women/L2page/Shoes/4._CB454499945_.jpg" alt="" srcset="">
+      </div><div >
+        <img class="grid-item grid-item--width2 grid-item--height3" src="https://qph.fs.quoracdn.net/main-qimg-5f0f22c467e1421205afe13f81fba590" alt="" srcset="">
+      </div><div >
+        <img class="grid-item grid-item--width2" src="https://pmcspy.files.wordpress.com/2020/03/kobe-5-protro-release.jpg?w=675" alt="" srcset="">
+      </div><div >
+        <img class="grid-item grid-item--height2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRvIcFINbSUbSslu0ztaEoby69Gu65kvcwsxfysw5vg9vpu8BkN&usqp=CAU" alt="" srcset="">
+      </div> <div >
+        <img class="grid-item grid-item--height2" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/8851419641065.560d76cd46f2c.jpg" alt="" srcset="">
+      </div><div >
+        <img class="grid-item grid-item--width2 grid-item--height2" src="https://melanietrifan.weebly.com/uploads/3/1/1/7/31175509/editor/lflbp020617a-adidassuperstarcta.jpg?1510340785" alt="" srcset="">
+      </div><div >
+        <img class="grid-item grid-item--width2" src="https://i.ytimg.com/vi/fOekbdB23jU/maxresdefault.jpg" alt="" srcset="">
+      </div><div >
+        <img class="grid-item grid-item--height2" src="https://lh3.googleusercontent.com/proxy/QDLtRRfdLGjpSqUYXiij_VK7SwfEy4Q2uLYiWPDfAcZrEqYt40gVTMp7Ku6JgRoqXwpLOQVemfi5a1blTZOr9CRdaQuqiykxAJ5oEMA3DuXuAmBv7mCw30Ss3DTEMMIVssA2Ntws8zulU1-QOb3gCaMSn1zDIevOl2Wn257GTWQaFA" alt="" srcset="">
+      </div><div >
+        <img class="grid-item grid-item--height2 grid-item--width2" src="https://www.shafiqsiddiqui.com/wp-content/uploads/2016/03/Servis-shoes-1-750x290.png" alt="" srcset="">
+      </div><div >
+        <img class="grid-item grid-item--height2 grid-item--width2" src="https://i.pinimg.com/originals/ba/17/c6/ba17c6726efe353ac3c54c97bf7e0850.png" alt="" srcset="">
+      </div>
+    </div>
+
+
+    <!-- WOMEN -->
+
+    <br>
+      <br>
+
+          <h3 id="women" class="cat">WOMEN</h3>
+        <br>
+
+                  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-interval="3000">
+                        <div class="card" style="width: 14rem;">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/61rXzcD6LFL._AC_UY500_.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">FLIP FLOPS</h5>
+                              <p class="card-text">Size
+                              <ul class="size">
+                                  <li><button class="btn btn-info">7</button> </li>
+                                   <li><button class="btn btn-info">8</button></li> 
+                                   <li><button class="btn btn-info">9</button></li> 
+                                   <li><button class="btn btn-info">10</button></li>
+                              </ul> Color
+                              <ul class="color">
+                              <li><button class="btn btn-dark"></button> </li>
+                              <li><button class="btn btn-success"></button></li> 
+                              <li><button class="btn btn-secondary"></button></li> 
+                              <li><button class="btn" style="background-color:brown"></button></li>
+                          </ul></p>
+                             <span><button class="btn btn-warning cost">Cost: Rs.800</button> <button href="#" class="btn s7 btn-outline-danger"><i class="fas fa-shopping-cart"></i></button></span> 
+                            </div>
+                          </div>
+        
+                          <div class="card" style="width: 14rem;">
+                            <img src="https://www.dhresource.com/0x0/f2/albu/g4/M00/D6/C1/rBVaEVeEiY-AMgFhAAeUWv2L7IM469.jpg" class="card-img-top" alt="...">
+                            <div class="card-body"><h5 class="card-title">BAHAMAS</h5>
+                              <p class="card-text">Size <ul class="size">
+                                  <li><button class="btn btn-info">7</button> </li> <li><button class="btn btn-info">8</button></li> 
+                                   <li><button class="btn btn-info">9</button></li>  <li><button class="btn btn-info">10</button></li>
+                              </ul> Color <ul class="color">
+                              <li><button class="btn btn-dark"></button> </li> <li><button class="btn btn-success"></button></li> 
+                              <li><button class="btn btn-secondary"></button></li>  <li><button class="btn" style="background-color:brown"></button></li> </ul></p>
+                             <span><button class="btn btn-warning cost">Cost: Rs.800</button> <button href="#" class="btn s8 btn-outline-danger"><i class="fas fa-shopping-cart"></i></button></span> 
+                            </div> </div>
+                        
+        
+                          <div class="card" style="width: 14rem;">
+                            <img src="https://ae01.alicdn.com/kf/HTB1l1iStBmWBuNkSndVq6AsApXa9/Women-High-Heels-Office-Shoes-Women-Sandals-Women-Cross-Strap-Brown-Black-Shoes-Pu-Leather-Boots.jpg" class="card-img-top" alt="...">
+                            <div class="card-body"> <h5 class="card-title">BATA HEELS</h5>
+                              <p class="card-text">Size<ul class="size">
+                                  <li><button class="btn btn-info">7</button> </li> <li><button class="btn btn-info">8</button></li> 
+                                   <li><button class="btn btn-info">9</button></li> <li><button class="btn btn-info">10</button></li>
+                              </ul> Color<ul class="color">
+                              <li><button class="btn btn-dark"></button> </li> <li><button class="btn btn-success"></button></li> 
+                              <li><button class="btn btn-secondary"></button></li> <li><button class="btn" style="background-color:red"></button></li>
+                          </ul></p><span><button href="#" class="btn btn-outline-danger mr-2"><i class="fas s9 fa-shopping-cart"></i></button><button class="btn btn-warning cost">Cost: Rs.800</button> </span> 
+                            </div> </div></div>
+
+
+                      <div class="carousel-item"> <div class="card" style="width: 14rem;">
+                            <img src="https://imgaz1.staticbg.com/thumb/large/oaupload/banggood/images/FB/99/c2369562-ed34-481e-ae43-5cc3c990af4b.png" class="card-img-top" alt="...">
+                            <div class="card-body"> <h5 class="card-title">KHADIMS</h5> <p class="card-text">Size <ul class="size">
+                                  <li><button class="btn btn-info">7</button> </li> <li><button class="btn btn-info">8</button></li> 
+                                   <li><button class="btn btn-info">9</button></li> <li><button class="btn btn-info">10</button></li>
+                              </ul> Color <ul class="color">
+                              <li><button class="btn btn-dark"></button> </li> <li><button class="btn btn-success"></button></li> 
+                              <li><button class="btn btn-secondary"></button></li>  <li><button class="btn" style="background-color:peru"></button></li>
+                          </ul></p> <span><button class="btn btn-warning cost">Cost: Rs.800</button> <button href="#" class="btn s10 btn-outline-danger"><i class="fas fa-shopping-cart"></i></button></span> </div> </div>
+        
+                          <div class="card" style="width: 14rem;">
+                            <img src="https://cdn.shopify.com/s/files/1/0051/0128/9561/products/product-image-935150246_800x.jpg?v=1576394037" class="card-img-top" alt="...">
+                            <div class="card-body"><h5 class="card-title">SNEAKERS</h5> <p class="card-text">Size<ul class="size">
+                                  <li><button class="btn btn-info">7</button> </li><li><button class="btn btn-info">8</button></li> 
+                                   <li><button class="btn btn-info">9</button></li> <li><button class="btn btn-info">10</button></li>
+                              </ul> Color
+                              <ul class="color">
+                              <li><button class="btn btn-dark"></button> </li><li><button class="btn btn-success"></button></li> 
+                              <li><button class="btn btn-secondary"></button></li>  <li><button class="btn" style="background-color:greenyellow"></button></li>
+                          </ul></p><span><button class="btn btn-warning cost">Cost: Rs.800</button> <button href="#" class="btn btn-outline-danger"><i class="fas s11 fa-shopping-cart"></i></button></span>  </div></div>
+
+                      <div class="card" style="width: 14rem;">
+                        <img src="https://ae01.alicdn.com/kf/HTB1ALC4eAfb_uJkSnb4q6xCrXXaf/Fashion-Women-Sneakers-Denim-Casual-Shoes-Female-Summer-Canvas-Shoes-Trainers-Lace-Up-Ladies-Basket-femme.jpg_640x640q70.jpg" class="card-img-top" alt="...">
+                        <div class="card-body"> <h5 class="card-title"> DENIM SNEAKERS</h5> <p class="card-text">Size<ul class="size">
+                              <li><button class="btn btn-info">7</button> </li><li><button class="btn btn-info">8</button></li> 
+                               <li><button class="btn btn-info">9</button></li> <li><button class="btn btn-info">10</button></li>
+                          </ul> Color<ul class="color">
+                          <li><button class="btn btn-dark"></button> </li> <li><button class="btn btn-success"></button></li> 
+                          <li><button class="btn btn-secondary"></button></li> <li><button class="btn" style="background-color:brown"></button></li>
+                      </ul></p> <span><button href="#" class="btn btn-outline-danger mr-2"><i class="fas s12 fa-shopping-cart"></i></button><button class="btn btn-warning cost">Cost: Rs.800</button> </span> </div> </div></div>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+    <br><br><br>
+
+    <!-- services -->
+    <h3 class="cat1">OUR SERVICES</h3>
+
+    <div >
+      <div class="serve row border justify-content-around align-items-center mt-4">
+        <div class="col-sm-4 ones"> 
+          <p><i class="fas fa-headphones mr-2"></i>Award winning customer service</p>
+        </div>
+         <div class="col-sm-4 ones"> 
+          <p><i class="fas fa-hand-holding-usd mr-2"></i>Easy returns.No questions asked.</p>
+      </div>
+      <div class="col-sm-4 twos"> 
+        <p><i class="fas fa-truck  mr-2"></i>Secure and fast delivery</p>
+    </div>
+    </div> 
+    </div>
+    <br><br>
+
+
+     <!-- testimonials -->
+     <h3 class="cat1">TESTIMONIALS</h3>
+     
+    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="3000">
+          <div id="testimonials" class="jumbotron text-center">
+            <div class="container trans">
+              <h1 class="display-5 ">Amit Agarwal</h1>
+              <p class="lead ">Great range of products. Love the delivery and customer service.Good finish and construction. The cushioned insole makes a big difference in comfort.
+                Value for money.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="6000">
+          <div id="testimonials" class="jumbotron text-center">
+            <div class="container trans">
+              <h1 class="display-5 ">Virat Kohli</h1>
+              <p class="lead ">It is an absolute value for money. I must say, Bourge has done a commendable job here in providing quality shoe at this price (I got it for 500 bucks). 
+                It was packed nicely & was delivered on time.It is very light weight with a memory foam inside, which makes it comfortable to walk. Outer mesh kinda material is quite strong and I have washed it thrice since I bought this & it does not fade.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="4000">
+          <div id="testimonials" class="jumbotron text-center">
+            <div class="container trans">
+              <h1 class="display-5 ">Ryan Max</h1>
+              <p class="lead ">This shoes is very comfortable. The build quality is also very good,considering the rate its the best laceless shoe around.
+                The colour is also very sharp and looks good,this is a best fit for a stylish casual look as well as a gym look.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+
+
+    <!-- cart -->
+    <h3 class="cat" id="cart">CART</h3>
+    <div class="panda"></div>
+    <br><br>
+
+    <!-- payment -->
+    <div class="payment">
+      <p class="pay">Total Cost= Rs.0</p>
+      <select name="bank" id="bank" class="mr-2 "><option value="1">MasterCard</option><option value="2">VISA</option><option value="3">American Express</option></select>
+      CVV: <input type="password" required name="pass"/> <br>
+      Expire Date: <input class="mt-3" type="date" id="expire" name="expire">
+      <textarea name="add" class="mt-3 mb-3" cols="40" rows="4" placeholder="Enter your address.."></textarea><br>
+      <button  class="btn imp btn-primary">Proceed to checkout</button>
+    </div>
+
+    <!-- <a href="http://placeholder.com" class="thumbnail"> -->
+    </div>
+   
+
+    <!-- customer care -->
+    <div id="jumbo1" class="jumbotron">
+      <div class="row justify-content-between  mt-4">
+        <div class="col-md-6"> 
+            <!-- for xs( extra small enter col-6 as col-xs-6 does not exist) -->
+            <br/>
+            <br/>
+            <h1 id="contact">CUSTOMER CARE</h1>
+            <p> <i class="fas fa-phone-alt"></i> Phone No: 9705322256 </p>
+            <p> <i class="fas fa-paper-plane"></i> Email : adithyabshetty100@gmail.com</p>
+            <form>
+                <br/>
+           <p> Subscribe to OUR newsletter: </p> <input type="email" name="email"
+            placeholder="Enter ur email" required>
+            <input type="submit" value="OK" class="ok">
+          </form>
+          
+        </div>
+
+         <div class="col-md-4 mt-2 mt-sm-0"> 
+              <br/>
+              <br/>
+         <h3>FOLLOW US ON</h3>
+         <a href="https://www.instagram.com/adithya_100/?hl=en" class="btn btn-outline-warning btn-lg" target="_blank" > <i id="in"class="fab fa-instagram btn-lg"></i></a>
+          <a href=" https://www.linkedin.com/in/adithya-shetty-1800a/" class="btn btn-outline-warning btn-lg" target="_blank"><i class="fab fa-linkedin"></i></a> 
+          <a href="https://github.com/Adithya-Shetty100" class="btn btn-outline-warning btn-lg" target="_blank"><i class="fab fa-github"></i></a>
+         
+      </div>
+    </div>
+</div>
+</div>
+</div>
+            
+
+   
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <!-- min version -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Masonary -->
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <script src="assets/JS/ecom.js"></script>
+</body>
+</html>
